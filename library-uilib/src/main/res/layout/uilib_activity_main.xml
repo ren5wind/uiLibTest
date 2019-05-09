@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:ignore="ResAuto">
+
+    <Button
+        android:id="@+id/btn_titlebar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="titlebar" />
+
+    <Button
+        android:id="@+id/btn_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dialog" />
+
+    <Button
+        android:id="@+id/btn_refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="refresh" />
+
+    <Button
+        android:id="@+id/btn_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="editText" />
+
+    <Button
+        android:id="@+id/btn_advTextSwitcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AdvTextSwitcher" />
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:uilib="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#33ff33"
+    android:orientation="vertical">
+
+    <com.tgs.topgamers.lib.uilib.titleBar.UiLibTitleBar
+        android:id="@+id/title"
+        style="@style/uiLib_titlebar_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        uilib:left_text="返回"
+        uilib:right_text="提交"
+        uilib:title_text="模板normal模板normal模板normal模板normal模板normal模板normal模板normal" />
+
+    <com.tgs.topgamers.lib.uilib.titleBar.UiLibTitleBar
+        style="@style/uiLib_titlebar_noright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        uilib:right_drawable="@drawable/uilib_btn_title_back"
+        uilib:right_text="提交"
+        uilib:title_text="模板noright模板noright模板noright模板noright模板noright模板noright模板noright" />
+
+    <com.tgs.topgamers.lib.uilib.titleBar.UiLibTitleBar
+        style="@style/uiLib_titlebar_nobottom_nobarbackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        uilib:right_drawable="@drawable/uilib_btn_title_back"
+        uilib:title_text="模板normal模板normal模板normal模板normal模板normal模板normal模板normal" />
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.DeviceDefault" />
+
+    <style name="uiLib_titlebar_normal">
+        <item name="bottom_background">@color/uilib_titlebar_bottom_background</item>
+        <item name="bottom_layout_height">0.5dp</item>
+        <item name="left_drawable">@drawable/uilib_btn_title_back</item>
+        <item name="left_drawablePadding">6dp</item>
+        <item name="left_paddingLeft">0dp</item>
+        <item name="left_paddingRight">8dp</item>
+        <item name="left_textColor">@color/uilib_btn_text_color_gray</item>
+        <item name="left_textSize">16sp</item>
+        <item name="right_drawablePadding">6dp</item>
+        <item name="right_paddingLeft">8dp</item>
+        <item name="right_paddingRight">8dp</item>
+        <item name="right_textColor">@color/uilib_btn_text_color_gray</item>
+        <item name="right_textSize">16sp</item>
+        <item name="android:background">@color/uilib_titlebar_background_normal</item>
+        <item name="titleBarHeight">48dp</item>
+        <item name="title_singleLine">true</item>
+        <item name="title_maxWidthOff">15dp</item>
+        <item name="title_textColor">@color/uilib_titlebar_title_textColor</item>
+        <item name="bottom_visibility">gone</item>
+        <item name="title_textSize">18sp</item>
+    </style>
+
+    <style name="uiLib_titlebar_noright" parent="uiLib_titlebar_normal">
+        <item name="right_visibility">gone</item>
+    </style>
+
+    <style name="uiLib_titlebar_noleft" parent="uiLib_titlebar_normal">
+        <item name="left_visibility">gone</item>
+    </style>
+
+    <style name="uiLib_titlebar_noleft_nobarbackground" parent="uiLib_titlebar_normal">
+        <item name="left_visibility">gone</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="uiLib_titlebar_nobottom_nobarbackground" parent="uiLib_titlebar_normal">
+        <item name="bottom_visibility">gone</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="uilib_dialog_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/uilib_transparent
+        </item>
+    </style>
+
+    <style name="uiLib_dialog_anim" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/uilib_push_zoom_in</item>
+        <item name="android:windowExitAnimation">@anim/uilib_push_zoom_out</item>
+    </style>
+
+    <style name="uiLib_dialog_anim_2" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/uilib_push_zoom_in</item>
+        <item name="android:windowExitAnimation">@anim/uilib_push_zoom_out</item>
+    </style>
+
+    <style name="uilib_time_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/uilib_white</item>
+    </style>
+</resources>
